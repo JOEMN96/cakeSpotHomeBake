@@ -9212,8 +9212,8 @@ div.product-style2 .product-grid .noo-product-inner:hover .noo-product-title .no
 }
 .google-map .noo-address-info-wrap .address-info {
     position: absolute;
-    bottom: 0;
-    right: 15px;
+    bottom: 5px;
+    right: 0px;
     width: 370px;
     background-color: #79cba8;
     color: #fff;
