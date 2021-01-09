@@ -5791,7 +5791,7 @@ div.products-sh-title h4 {
 }
 .noo-about-wrap .noo-about-right {
     flex: 50%;
-    padding: 195px 10%;
+    padding: 65px 5%;
     text-align: center;
     position: relative;
 }
@@ -8464,7 +8464,7 @@ div.product-style2 .product-grid .noo-product-inner .noo-product-title .noo-prod
 div.product-style2 .product-grid .noo-product-inner .noo-product-title .noo-product-action .noo-action .noo-qucik-view,
 div.product-style2 .product-grid .noo-product-inner .noo-product-title .noo-product-action .noo-action .yith-wcwl-add-to-wishlist {
     display: block;
-    width: 25%;
+    width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
@@ -12867,10 +12867,12 @@ div.product-style2 .product-grid .noo-product-inner:hover .noo-product-title .no
 .commerce input.button,
 .noo-qucik-view {
     -webkit-border-radius: 0;
+    border-radius: 0;
     letter-spacing: 1px;
     font-weight: 400;
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
     text-transform: uppercase;
 }
 .commerce .product-list .noo-product-title .price {
@@ -13817,3 +13819,12 @@ div.product-style2 .product-grid .noo-product-inner:hover .noo-product-title .no
     border-color: #79cba8;
     color: #fff;
 }
+
+/* joe custom */
+
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+ }
+
